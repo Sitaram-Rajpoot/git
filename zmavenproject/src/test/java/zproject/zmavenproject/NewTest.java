@@ -20,7 +20,7 @@ public class NewTest {
   @Test
   public void testingfirstcommit()
   {
-	  System.out.println("testi ng");
+	  System.out.println("testing selenium");
   }
   
 }
