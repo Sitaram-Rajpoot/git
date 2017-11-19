@@ -16,4 +16,11 @@ public class NewTest {
   public void afterTest() {
   }
   
+  
+  @Test
+  public void testingfirstcommit()
+  {
+	  System.out.println("testing");
+  }
+  
 }
