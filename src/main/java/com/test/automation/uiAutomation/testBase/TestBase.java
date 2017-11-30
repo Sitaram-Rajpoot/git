@@ -23,6 +23,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -97,7 +98,14 @@ public class TestBase {
 			if (browser.equals("chrome")) {
 				System.out.println(System.getProperty("user.dir"));
 				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-				driver = new ChromeDriver();
+				
+				
+				ChromeOptions o = new ChromeOptions();
+				o.addArguments("disable-extensions");
+				o.addArguments("--start-maximized");
+				driver = new ChromeDriver(o);
+				
+				
 				// driver = new EventFiringWebDriver(dr);
 				// eventListener = new WebEventListener();
 				// driver.register(eventListener);
