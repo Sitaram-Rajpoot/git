@@ -9,8 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.test.automation.uiAutomation.testBase.TestBase;
 /**
  * 
- * @author Bhanu Pratap
- *
+ * 
  */
 public class AddToCartPage  extends TestBase{
 
