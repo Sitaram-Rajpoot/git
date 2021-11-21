@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.test.automation</groupId>
-  <artifactId>uiAutomation</artifactId>
+  <artifactId>Automation</artifactId>
   <version>0.0.2</version>
   <packaging>jar</packaging>
 
