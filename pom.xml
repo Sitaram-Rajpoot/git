@@ -7,7 +7,7 @@
   <version>0.0.2</version>
   <packaging>jar</packaging>
 
-  <name>uiAutomation</name>
+  <name>Automation</name>
   <url>http://maven.apache.org</url>
 
   <properties>
