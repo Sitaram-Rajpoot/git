@@ -20,7 +20,7 @@
 <test name="AddToCartTest">
 <classes>
 <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart"></class>
-<class name="com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink"></class>
+<class name="com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink   "></class>
 </classes>
 </test>
 
